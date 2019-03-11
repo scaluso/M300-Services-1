@@ -60,7 +60,7 @@ end
 
 7. Mit einem FTP-Client auf die VM zugreifen.
 
-* In diesem Beispiel wurde FileZilla benutzt.
+In diesem Beispiel wurde FileZilla benutzt.
 
 * `Host: 192.168.75.75`
 * `Username: vagrant`
