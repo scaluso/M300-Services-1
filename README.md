@@ -15,11 +15,11 @@ cd ftp-server
 
 2. Vagrant Box herunterladen.
 
-* `vagrant box add http://10.1.66.11/vagrant/ubuntu/xenial64.box --name ubuntu/xenial64`
+`vagrant box add http://10.1.66.11/vagrant/ubuntu/xenial64.box --name ubuntu/xenial64`
 
 3. Vagrantfile erstellen.
 
-* `vagrant init ubuntu/xenial64`
+`vagrant init ubuntu/xenial64`
 
 4. Vagrantfile anpassen damit Vagrant das Netzwerk richtig konfiguriert und vsftpd installiert.
 
@@ -50,20 +50,20 @@ end
 
 5. Mittels SSH auf die VM zugreifen um die vsftpd.conf Datei anzupassen.
 
-* `vagrant ssh`
+`vagrant ssh`
 
 6. vsftpd.conf anpassen.
 
-* `sudo nano /etc/vsftpd.conf`
+`sudo nano /etc/vsftpd.conf`
 
-* `write_enable=YES`
+`write_enable=YES`
 
 7. Mit einem FTP-Client auf die VM zugreifen.
 
 In diesem Beispiel wurde FileZilla benutzt.
 
-* `Host: 192.168.75.75`
-* `Username: vagrant`
-* `Password: vagrant`
+`Host: 192.168.75.75`
+`Username: vagrant`
+`Password: vagrant`
 
 ![FileZilla](https://i.imgur.com/iawaZG9.png)
