@@ -64,6 +64,6 @@ In diesem Beispiel wurde FileZilla benutzt.
 
 * `Host: 192.168.75.75`
 * `Username: vagrant`
-* `Passwort: vagrant`
+* `Password: vagrant`
 
 ![FileZilla](https://i.imgur.com/iawaZG9.png)
