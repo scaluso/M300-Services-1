@@ -47,6 +47,7 @@ Vagrant.configure(2) do |config|
   SHELL
 end
 ```
+Link zum Vagrant File: [hier](https://github.com/scharfschiesser/M300-Services/blob/master/Vagrantfile)
 
 #### Mittels SSH auf die VM zugreifen um die vsftpd.conf Datei anzupassen.
 
